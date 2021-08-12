@@ -11,7 +11,9 @@ export default class Server {
     constructor() {
         this.dataService = new DataService();
     }
-
+    /**
+     * Testing
+     */
     public createServer() {
         http.createServer((req, res) => {
             this.incomingMessage = req;
